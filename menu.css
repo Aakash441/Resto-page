@@ -1,0 +1,343 @@
+
+body{
+    background: url(https://img.freepik.com/free-photo/vintage-old-rustic-cutlery-dark_1220-4886.jpg?size=626&ext=jpg&ga=GA1.2.2061796769.1659373198);
+   background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+    justify-content: center;
+    min-height: 100vh;
+  /*  margin-left: 100px;
+    margin-top: 50px;*/
+    align-items: center;
+    
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: orangered;
+    color: #fff;
+}
+span{
+    color: lightgreen;
+}
+.nav-links a{
+    color: #fff
+    ;
+}
+.logo{
+    color: #fff;
+    position: relative;
+    left: 50px;
+    font-family: cursive;
+    font-size: 32px;
+}
+.logo1{
+    position: relative;
+    left: -50px;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    gap: 2em;
+    font-size: 18px;
+
+}
+
+.menu li:hover{
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+
+}
+
+.menu li{
+   padding: 5px 14px;
+}
+h1{
+    color: #fff;
+    margin: 20px;
+    
+}
+.abc{
+    margin-left: 700px;
+    margin-top: -310px;
+}
+.hn{
+    color: #fff;
+    margin: 20px;
+}
+
+.name,.price{
+    
+    width: 500px;
+    height: 200px;
+    font-family: cursive;
+    font-style: italic;
+}
+.nam,.pric{
+    color: #fff;
+    font-size: 22px;
+    width: 500px;
+    height: 200px;
+    font-family: cursive;
+    font-style: italic;
+}
+.name,.nam{
+    color: #fff;
+    margin: 20px;
+    font-size: 22px;
+}
+.nam{
+    margin-left: 700px;
+    margin-top: 0px;
+}
+.pric{
+    margin-left: 1200px;
+    margin-top: 25px;
+}
+.price{
+    color: #fff;    
+    font-size: 22px;
+    margin-left: 500px;
+   margin-top: 25px; 
+   
+    
+    
+}
+.men{
+    height: 650px;
+    width: 1300px;
+    background: url(https://thumbs.dreamstime.com/b/design-menu-background-27832409.jpg);
+   margin-top: 50px;
+   margin-left: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.12); ;
+}
+
+.hp{
+    color: #fff;
+    margin-top: -270px;
+    margin-left: 500px;
+}
+/*.vertical-line{
+    border-left: 4px dotted #5f5;
+    display: block;
+    height: 550px;
+    margin-top: -270px;
+    margin-left: 650px;
+}*/
+.abc1{
+    color: #fff;
+    margin-left: 700px;
+}
+.abc2{
+    color: #fff;
+    margin-top: -270px;
+    margin-left: 1200px;
+}
+.me{
+    height: 650px;
+    width: 1300px;
+    background: url(https://thumbs.dreamstime.com/b/design-menu-background-27832409.jpg);
+    margin-top: 50px;
+    margin-left: 100px;
+   
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 50px;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.12); ;
+}
+.me1{
+    height: 650px;
+    width: 1300px;
+    background: url(https://thumbs.dreamstime.com/b/design-menu-background-27832409.jpg);
+   margin-top: 50px;
+   margin-left: 100px;
+   
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 50px;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.12); ;
+}
+
+.me2{
+    height: 650px;
+    width: 1300px;
+    background: url(https://thumbs.dreamstime.com/b/design-menu-background-27832409.jpg);
+    margin-top: 50px;
+    margin-left: 100px;
+   
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 50px;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.12); ;
+}
+
+.me3{
+    height: 650px;
+    width: 1300px;
+    background: url(https://thumbs.dreamstime.com/b/design-menu-background-27832409.jpg);
+    margin-top: 50px;
+    margin-left: 100px;
+   
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 50px;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.12); ;
+
+}
+
+.footer-distributed{
+	background: orangered;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+    
+}
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+.footer-distributed .footer-left{
+	width: 40%;
+}
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+    
+}
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightgreen;
+}
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color: olivedrab;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  black;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color: olivedrab;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
